@@ -44,7 +44,7 @@ endif;
     </div>
 
     <input type="hidden" name="_csrf_token" value="<?php echo $view->escape($view['form']->csrfToken('authenticate')) ?>" />
-    <button class="btn btn-lg btn-primary btn-block" type="submit"><?php echo $view['translator']->trans('mautic.user.auth.form.loginbtn'); ?></button>
+    <button class="btn btn-lg btn-primary btn-block btn-thunder" type="submit"><?php echo $view['translator']->trans('mautic.user.auth.form.loginbtn'); ?></button>
 
     <div class="mt-sm text-right">
         <a href="<?php echo $view['router']->path('mautic_user_passwordreset'); ?>"><?php echo $view['translator']->trans('mautic.user.user.passwordreset.link'); ?></a>
